@@ -3,19 +3,80 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Droidovr — Games</title>
+<title>Tilt: Balance Puzzle — Droidovr</title>
+<meta name="description" content="Tilt: Balance Puzzle — a neon logic game about scales. Weigh, compare and deduce: 100 levels, 10 kinds of puzzles. Free on Google Play.">
+<meta name="theme-color" content="#0b0620">
+<meta property="og:title" content="Tilt: Balance Puzzle">
+<meta property="og:description" content="A neon logic game about scales. 100 levels, 10 kinds of puzzles.">
+<meta property="og:image" content="https://droidovr.github.io/assets/tilt-icon.png">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<main>
-<h1>Droidovr</h1>
-<p class="meta">Mobile puzzle games</p>
-<div class="card">
-<h2 style="margin-top:0">Tilt</h2>
-<p>A puzzle game about scales: find the heaviest figure, sort them by weight, catch the fake and balance the pans — 100 levels.</p>
-<p><a href="tilt-privacy.html">Privacy Policy</a></p>
-</div>
-<p>Contact: <a href="mailto:droidovr@gmail.com">droidovr@gmail.com</a></p>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="assets/favicon.png" alt="" width="34" height="34">Droidovr</a>
+    <nav class="nav">
+      <a href="#puzzles">Puzzles</a>
+      <a href="tilt-privacy.html">Privacy</a>
+      <a href="mailto:droidovr@gmail.com">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="hero">
+    <div>
+      <img class="hero-icon" src="assets/tilt-icon.png" alt="Tilt app icon" width="96" height="96">
+      <h1 class="title">TIL<span>T</span></h1>
+      <p class="tagline">Find the balance</p>
+      <p class="lead">A calm neon logic game about scales. Put figures on the pans, watch which way the beam tilts and work out the answer in as few weighings as you can.</p>
+      <a class="cta" href="https://play.google.com/store/apps/details?id=com.droidovr.tilt">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 2.8v18.4c0 .6.7 1 1.2.7l15.6-9.2c.5-.3.5-1.1 0-1.4L5.2 2.1C4.7 1.8 4 2.2 4 2.8z"/></svg>
+        <span><small>Get it free on</small><strong>Google Play</strong></span>
+      </a>
+      <ul class="facts">
+        <li>100 levels</li>
+        <li>10 kinds of puzzles</li>
+        <li>11 languages</li>
+        <li>No account needed</li>
+      </ul>
+    </div>
+    <div class="phones" aria-hidden="true">
+      <div class="phone a"><img src="assets/shot-tilt.webp" alt="" loading="lazy"></div>
+      <div class="phone b"><img src="assets/shot-menu.webp" alt=""></div>
+      <div class="phone c"><img src="assets/shot-level.webp" alt="" loading="lazy"></div>
+    </div>
+  </div>
+
+  <section id="puzzles">
+    <h2>One scale, many puzzles</h2>
+    <div class="grid">
+      <div class="card"><h3><span class="dot"></span>Heaviest &amp; lightest</h3><p>Find the heaviest or the lightest figure — and later the second one or the middle one.</p></div>
+      <div class="card"><h3><span class="dot pink"></span>Full order</h3><p>Sort every figure from heaviest to lightest before you run out of weighings.</p></div>
+      <div class="card"><h3><span class="dot violet"></span>The fake</h3><p>One figure is lighter or heavier than the rest. Catch it.</p></div>
+      <div class="card"><h3><span class="dot"></span>Balance</h3><p>The weights are known — share the figures between the pans so the beam stays level.</p></div>
+      <div class="card"><h3><span class="dot pink"></span>Twins &amp; counterweight</h3><p>Find the two figures that weigh the same, or match a locked figure on the left pan.</p></div>
+      <div class="card"><h3><span class="dot violet"></span>Predict &amp; deduce</h3><p>Say which way the scale will tilt, find the weight of the mystery figure, or reason from weighings already made.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Made to be relaxing</h2>
+    <div class="grid">
+      <div class="card"><h3>Learn by watching</h3><p>Each new kind of puzzle starts with a short animated demo — no walls of text.</p></div>
+      <div class="card"><h3>Hints when you need them</h3><p>Stuck? A hint shows the next good weighing.</p></div>
+      <div class="card"><h3>Your progress stays with you</h3><p>No sign-up. Progress and settings are kept on your device.</p></div>
+    </div>
+  </section>
 </main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© 2026 Droidovr</span>
+    <span><a href="tilt-privacy.html">Privacy Policy</a> · <a href="mailto:droidovr@gmail.com">droidovr@gmail.com</a></span>
+  </div>
+</footer>
 </body>
 </html>
